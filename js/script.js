@@ -25,7 +25,7 @@ if (userAge < 18) {
     totalPrice = price * 0.60; // sconto del 40% per gli over 65
 }
 
-console.log (totalPrice);
+console.log (totalPrice, typeof totalPrice);
 
 //stampo il risultato riducendo il prezzo a due decimali
 document.getElementById("result").innerHTML = totalPrice.toFixed(2); 
