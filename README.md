@@ -7,8 +7,8 @@
 
 2. ESECUZIONE LOGICA:
 - [x] il prezzo del biglietto è definito in base ai km, 0,21€ al km
-- [ ] per i minorenni sconto del 20%
-- [ ] per gli over 65 sconto del 40%
+- [x] per i minorenni sconto del 20%
+- [x] per gli over 65 sconto del 40%
 
 3. OUTPUT:
-- [ ] stampare il prezzo finale in forma umana
+- [x] stampare il prezzo finale in forma umana
