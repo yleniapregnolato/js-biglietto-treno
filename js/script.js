@@ -10,12 +10,15 @@ console.log(userKm, typeof userKm);
 
 //chiedere l'età del passeggero
 const userAge = prompt("quanti anni hai?") //string | null
+userAge = parseInt(userAge); //number
 console.log(userAge, typeof userAge);
 
 //ESECUZIONE LOGICA
 //calcolo il prezzo del biglietto in base ai km che l'utente deve percorrere
 
 let price = userKm * 0.21; //number
+console.log(price, typeof price);
+
 let totalPrice = price
 
 //applico lo sconto in base all'età
